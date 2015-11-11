@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*
+Theme Name: Denny SIte
+Theme URI: http://denny.ua.edu/index.html
+Description: Test
+Author: Greg Bowen
+Author URI: denny.ua.edu
+Version: 0.1.0
+*/
+
+header-cont {
+ width:100%;
+ position:fixed;
+ top:0px;
+ background-color: #3c3c3c;
+}
+header {
+	padding-left: 15%;
+	height: 40px;
+	background: white;
+	width: 100%;
+	background-color: #3c3c3c;
+	padding-top:10px;
+}
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-family: Perpetua Titling MT Light;
+	font-size: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	font-family: "Work Sans Medium";
+	font-size: 12px;
+	text-decoration: none;
+	display: inline;
+	
+}
+a:link { /*LINK FONT COLOR SIDE BAR!!!!!!!!!!!!!!!!!!!!!!!!!! */
+	font-family: "Work Sans Medium";
+	display: inline;
+	text-decoration: none;
+	margin-bottom: 2px;
+	background-color: #3c3c3c;
+
+}
+a:visited {
+	color: black;
+	background-color: white;
+	font-family: "Work Sans Medium";
+	display: inline;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	color: #eeeded;
+	font-family: "Work Sans Medium";
+	text-decoration: none;
+}
+.container {
+	width: 70%;
+	background-color: white;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+.sidebar1 { /*	overall side item*/
+	margin-top: -10px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom:5px;
+}
+.content {
+	background-image:    url(images/DennyLogo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+	background-size:32%;
+	padding-bottom:100px;
+	
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul {
+	background-color: #eeeded;
+	list-style: none; /* this removes the list marker */
+	margin-top: 10px;
+	margin-bottom: 25px; /* this creates the space between the navigation on the content below */
+	font-family: "Perpetua Titling MT Light";
+	font-size: 12px;
+}
+nav li { /*	DEFINES THE LINK FONT---------LEFT SIDE BAR*/
+	color: #eeeded;
+	font-size: 13px;
+	font-family: "Work Sans Medium";
+}
+nav a, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 200px;
+	text-decoration: none;
+	background-color: #eeeded;
+	font-size: 12px;
+}
+nav a:hover, nav a:active, nav a:focus { /* MOUSE HOVERING ON LINKS */
+	color: red;
+	background-color: #eeeded;
+}
+/* ~~ The footer ~~ */
+.footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: auto;
+	margin-top: -3em;
+	background-color: #3c3c3c;
+	color: white;
+	padding-left: 15%;
+	padding-top:15px;
+	padding-bottom:5px;
+	font-size: 9px;
+	padding-right:15%;
+}
+.footer2 { /*	bottom crimson bar	*/
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: auto;
+	padding: .25rem;
+	background-color: #a51e36;
+	color: white;
+	text-align: right;
+	padding-right: 15%;
+	font-size: 8px;
+}
+.styleone:link {
+	color: white;
+	background: #3c3c3c;
+	font-size: 10px;
+	text-decoration: none;	
+
+	line-height:25px;
+}
+.styleone:visited {
+	text-decoration: none;
+	background-color: #3c3c3c;
+	color: white;	
+
+}
+.styleone:hover {
+	text-decoration: none;
+	color: white;	
+
+	background-color: #3c3c3c;
+}
+.styleone:focus {
+	text-decoration: none;
+	color: white;	
+
+	background-color: #3c3c3c;
+}
+.styleone:active {
+	text-decoration: none;
+	color: white;
+	background-color: #3c3c3c;	
+
+}
+/*-------------------------------------*/
+.style_two:link {
+	color: white;
+	background: #3c3c3c;
+	font-size: 10px;
+	text-decoration: none;
+	text-align:right;
+	line-height:23px;
+	float:right;
+	font-color:white;
+	content: " | ";
+    padding: 0 10px;
+}
+.style_two:visited {
+	text-decoration: none;
+	background-color: #3c3c3c;
+	color: white;	
+	font-color:white;
+content: " | ";
+    padding: 0 10px;
+}
+.style_two:hover {
+	text-decoration: none;
+	color: white;	
+	text-align:right;
+content: " | ";
+    padding: 0 10px;
+	font-color:white;
+	background-color: #3c3c3c;
+}
+.style_two:focus {
+	text-decoration: none;
+	color: white;	
+	text-align:right;
+	background-color: #3c3c3c;
+	font-color:white;
+content: " | ";
+    padding: 0 10px;
+}
+.style_two:active {
+	text-decoration: none;
+	color: white;
+	background-color: #3c3c3c;
+	font-color:white;
+content: " | ";
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+
+.side_line_space {
+	margin-top: -38px;
+	z-index: 10px;
+	margin-bottom: -3px;
+	background-color: #eeeded;
+}
+.toolbar li {
+	display: inline;
+	background-color: #eee;
+	border: 1px solid;
+	border-color: #f3f3f3 #bbb #bbb #f3f3f3;
+	margin: 0;
+	padding: .5em;
+	zoom: 1;
+}
+.nav_mod { /*	HORIZONTAL BAR*/
+	display: inline;
+	background-color: white;
+	font-size: 12px;
+	margin-bottom: -5px;
+	padding-bottom: -5px;
+	margin-left: 13px;
+	text-decoration: none;
+	font-family: "Perpetua Titling MT Light";
+}
+.nav_mod:visited {
+	padding-bottom: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+	background-color: #3c3c3c;
+	color: white;
+}
+.nav_mod:hover {
+	padding-bottom: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+	color: white;
+	background-color: #3c3c3c;
+	font-family: "Perpetua Titling MT Light";
+}
+.nav_mod:focus {
+	padding-bottom: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+	color: white;
+	background-color: #3c3c3c;
+	font-family: "Perpetua Titling MT Light";
+}
+.nav_mod:active {
+	padding-bottom: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+	color: white;
+	background-color: #3c3c3c;
+	font-family: "Perpetua Titling MT Light";
+}
+
+
+.alignleft {
+	float: left;
+	background-color: #3c3c3c;
+	color: #3c3c3c;
+	font-color:white;
+}
+.alignright {
+	float: right;
+	color: #3c3c3c;
+	background-color: #3c3c3c;
+	font-color:white;
+}
